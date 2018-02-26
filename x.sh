@@ -34,6 +34,9 @@ else
 	exit
 fi
 
+# GO TO ROOT
+cd
+
 #INDEX.PHP
 mkdir -p /var/www/html/Server
 echo "<pre>#www.ocspanel.info - Facebook.com/ceolnw
