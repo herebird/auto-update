@@ -49,5 +49,8 @@ wget https://raw.githubusercontent.com/herebird/auto-update/master/index.php
 # GO TO ROOT
 cd
 
+#แก้ไขการเชื่อมต่อ
+nano /var/www/html/Server/index.php
+
 #ทำลายล้าง
-rm allvertion.sh
+rm x.sh
