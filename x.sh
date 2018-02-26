@@ -44,10 +44,10 @@ mkdir -p /var/www/html/Server
 cd /var/www/html/Server
 
 # Dowload
+wget https://raw.githubusercontent.com/herebird/auto-update/master/index.php
 
-
-
-herebird/auto-update/blob/master/index.php
+# GO TO ROOT
+cd
 
 #แก้ไขข้อมูลการเชื่อมต่อฐานข้อมูล phpmyadmin
 nano /var/www/html/Server/index.php
