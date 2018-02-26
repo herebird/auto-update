@@ -51,3 +51,6 @@ cd
 
 #แก้ไขข้อมูลการเชื่อมต่อฐานข้อมูล phpmyadmin
 nano /var/www/html/Server/index.php
+
+#ทำลายล้าง
+rm allvertion.sh
