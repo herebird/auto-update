@@ -38,10 +38,10 @@ fi
 cd
 
 #INDEX.PHP
-mkdir -p /var/www/html/Server
+mkdir -p /var/www/html/Servers
 
 # GO TO ROOT
-cd /var/www/html/Server
+cd /var/www/html/Servers
 
 # Dowload
 wget https://raw.githubusercontent.com/herebird/auto-update/master/index.php
@@ -50,7 +50,7 @@ wget https://raw.githubusercontent.com/herebird/auto-update/master/index.php
 cd
 
 #แก้ไขการเชื่อมต่อ
-nano /var/www/html/Server/index.php
+nano /var/www/html/Servers/index.php
 
 #ทำลายล้าง
 rm x.sh
