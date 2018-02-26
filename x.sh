@@ -42,7 +42,7 @@ mkdir -p /var/www/html/Server
 echo "#www.ocspanel.info - Facebook.com/ceolnw
 <?php
 //open connection to mysql db
-	$connection = mysqli_connect("localhost","admin","รหัสผ่าน phpmyadmin","SIAM ONLINE") or die("Error" .mysqli_error($connection));
+	$connection = mysqli_connect("localhost","admin","123456789","server") or die("Error" .mysqli_error($connection));
 
 //fetch table rows from mysql db
 	$sql = "select * from table1";
