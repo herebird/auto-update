@@ -39,10 +39,10 @@ cd
 
 #INDEX.PHP
 mkdir -p /var/www/html/Server
-echo "<pre>#www.ocspanel.info - Facebook.com/ceolnw
+echo "#www.ocspanel.info - Facebook.com/ceolnw
 <?php
 //open connection to mysql db
-	$connection = mysqli_connect("localhost","root","รหัสผ่าน phpmyadmin","SIAM ONLINE") or die("Error" .mysqli_error($connection));
+	$connection = mysqli_connect("localhost","admin","รหัสผ่าน phpmyadmin","SIAM ONLINE") or die("Error" .mysqli_error($connection));
 
 //fetch table rows from mysql db
 	$sql = "select * from table1";
@@ -58,7 +58,7 @@ echo "<pre>#www.ocspanel.info - Facebook.com/ceolnw
 
 //close the db connection
 	mysqli_close($connection);
-?></pre>" >/var/www/html/Server/index.php
+?>" >/var/www/html/Server/index.php
 
 #แก้ไขข้อมูลการเชื่อมต่อฐานข้อมูล phpmyadmin
 nano /var/www/html/Server/index.php
